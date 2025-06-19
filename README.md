@@ -25,7 +25,22 @@ brew install --cask https://raw.githubusercontent.com/swmaeStrong/homebrew-pawcu
 Pawcus will auto-update using Sparkle framework, but you can also update via Homebrew:
 
 ```bash
+# 먼저 Homebrew 정보를 업데이트
+brew update
+
+# 그 다음 Pawcus 업그레이드
 brew upgrade --cask pawcus
+```
+
+### 업데이트가 안 되는 경우
+
+만약 최신 버전이 설치되지 않는다면:
+
+```bash
+# Tap을 다시 설정
+brew untap swmaestrong/pawcus
+brew tap swmaestrong/pawcus
+brew install --cask pawcus
 ```
 
 ## Uninstalling
