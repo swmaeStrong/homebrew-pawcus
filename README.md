@@ -133,6 +133,6 @@ brew install --cask pawcus --verbose --debug
 
 ## Links
 
-- **App Repository**: https://github.com/swmaeStrong/MVP_Mac
+- **App Repository**: https://github.com/swmaeStrong/Pawcus
 - **Homebrew Tap**: https://github.com/swmaeStrong/homebrew-pawcus
-- **Releases**: https://github.com/swmaeStrong/MVP_Mac/releases
+- **Releases**: https://github.com/swmaeStrong/Pawcus/releases
