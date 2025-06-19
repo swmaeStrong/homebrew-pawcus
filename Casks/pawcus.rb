@@ -1,6 +1,6 @@
 cask "pawcus" do
-  version "0.4.4"
-  sha256 "c1a53166f4b26881b9b2d44ad2349dadc52be37d88b418088a6dd82441aad90b"
+  version "0.5"
+  sha256 "cb11d694ce723bbe792721d24117a83deb7cc8f82fb6f1aa48638beec30d4e84"
 
   url "https://github.com/swmaeStrong/MVP_Mac/releases/download/v#{version}/Pawcus.zip"
   name "Pawcus"
