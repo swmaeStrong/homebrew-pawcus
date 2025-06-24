@@ -2,10 +2,10 @@ cask "pawcus" do
   version "0.6.5"
   sha256 "9a53ac3a8e7ea3dc01c4b8cec0e6197545b5da4ce315ac7f3f344788d9c54683"
 
-  url "https://github.com/swmaeStrong/Pawcus/releases/download/v#{version}/Pawcus.zip"
+  url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Pawcus.zip"
   name "Pawcus"
   desc "Developer productivity timer and app usage tracker for macOS"
-  homepage "https://github.com/swmaeStrong/Pawcus"
+  homepage "https://github.com/swmaeStrong/Pawcus-Public"
 
   livecheck do
     url :url
