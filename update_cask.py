@@ -13,7 +13,7 @@ from pathlib import Path
 
 def get_latest_release():
     """GitHub API에서 최신 릴리즈 정보 가져오기"""
-    url = "https://api.github.com/repos/swmaeStrong/MVP_Mac/releases/latest"
+    url = "https://api.github.com/repos/swmaeStrong/Pawcus-Public/releases/latest"
     try:
         response = requests.get(url)
         response.raise_for_status()
