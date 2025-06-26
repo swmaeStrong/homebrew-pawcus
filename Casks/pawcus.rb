@@ -1,6 +1,6 @@
 cask "pawcus" do
-  version "0.8.1"
-  sha256 "4da9707fa7e49d0c388e475a1440fff59ad23c7b02b016e6f924bddb60ea8491"
+  version "0.8.2"
+  sha256 "f8add30ed8a3aea328e9a1428c16d4fec73995806a82f3c57b250e22378e4d8b"
 
   url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Pawcus.zip"
   name "Pawcus"
