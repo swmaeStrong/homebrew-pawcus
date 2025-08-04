@@ -1,4 +1,4 @@
-# Homebrew Tap for Pawcus
+# Homebrew Tap for Pomocore
 
 Developer productivity timer and app usage tracker for macOS.
 
@@ -8,28 +8,28 @@ Developer productivity timer and app usage tracker for macOS.
 
 ```bash
 # Add this tap
-brew tap swmaeStrong/pawcus
+brew tap swmaeStrong/pomocore
 
-# Install Pawcus
-brew install --cask pawcus
+# Install Pomocore
+brew install --cask pomocore
 ```
 
 ### Method 2: Direct URL
 
 ```bash
-brew install --cask https://raw.githubusercontent.com/swmaeStrong/homebrew-pawcus/main/Casks/pawcus.rb
+brew install --cask https://raw.githubusercontent.com/swmaeStrong/homebrew-pomocore/main/Casks/pomocore.rb
 ```
 
 ## Updating
 
-Pawcus will auto-update using Sparkle framework, but you can also update via Homebrew:
+Pomocore will auto-update using Sparkle framework, but you can also update via Homebrew:
 
 ```bash
 # 먼저 Homebrew 정보를 업데이트
 brew update
 
-# 그 다음 Pawcus 업그레이드
-brew upgrade --cask pawcus
+# 그 다음 Pomocore 업그레이드
+brew upgrade --cask pomocore
 ```
 
 ### 업데이트가 안 되는 경우
@@ -38,19 +38,19 @@ brew upgrade --cask pawcus
 
 ```bash
 # Tap을 다시 설정
-brew untap swmaestrong/pawcus
-brew tap swmaestrong/pawcus
-brew install --cask pawcus
+brew untap swmaestrong/pomocore
+brew tap swmaestrong/pomocore
+brew install --cask pomocore
 ```
 
 ## Uninstalling
 
 ```bash
 # Uninstall the app
-brew uninstall --cask pawcus
+brew uninstall --cask pomocore
 
 # Remove all app data (optional)
-brew uninstall --cask --zap pawcus
+brew uninstall --cask --zap pomocore
 ```
 
 ## Development
@@ -67,7 +67,7 @@ This repository includes automation to update the Cask when new releases are pub
 
 ```bash
 # Make sure you're in the repository directory
-cd /Users/kim-jeongwon/Desktop/homebrew-pawcus
+cd /Users/kim-jeongwon/Desktop/homebrew-pomocore
 
 # Run the update script
 ./update.sh
@@ -80,18 +80,18 @@ python3 update_cask.py
 
 ```bash
 # Test the cask formula
-brew audit --cask pawcus
+brew audit --cask pomocore
 
 # Test installation
-brew install --cask pawcus --verbose --debug
+brew install --cask pomocore --verbose --debug
 ```
 
 ## Repository Structure
 
 ```
-homebrew-pawcus/
+homebrew-pomocore/
 ├── Casks/
-│   └── pawcus.rb          # Homebrew Cask formula
+│   └── pomocore.rb        # Homebrew Cask formula
 ├── .github/
 │   └── workflows/
 │       └── update-cask.yml # GitHub Actions workflow
@@ -104,16 +104,16 @@ homebrew-pawcus/
 
 1. Fork this repository
 2. Make your changes
-3. Test with `brew audit --cask pawcus`
+3. Test with `brew audit --cask pomocore`
 4. Submit a pull request
 
 ## Release Process
 
-When releasing a new version of Pawcus:
+When releasing a new version of Pomocore:
 
 1. **Create GitHub Release**:
    - Tag: `v1.0.0` (semantic versioning)
-   - Upload `Pawcus.zip` as release asset
+   - Upload `Pomocore.zip` as release asset
 
 2. **Update Homebrew Cask** (automatically):
    - GitHub Actions will detect the new release
@@ -122,7 +122,7 @@ When releasing a new version of Pawcus:
 
 3. **Manual Alternative**:
    ```bash
-   cd /Users/kim-jeongwon/Desktop/homebrew-pawcus
+   cd /Users/kim-jeongwon/Desktop/homebrew-pomocore
    ./update.sh
    ```
 
@@ -130,24 +130,24 @@ When releasing a new version of Pawcus:
 
 ### Permission Issues
 ```bash
-# If Pawcus requires accessibility permissions
-System Preferences → Security & Privacy → Privacy → Accessibility → Add Pawcus
+# If Pomocore requires accessibility permissions
+System Preferences → Security & Privacy → Privacy → Accessibility → Add Pomocore
 ```
 
 ### Cask Issues
 ```bash
 # Reinstall if having issues
-brew uninstall --cask pawcus
-brew install --cask pawcus
+brew uninstall --cask pomocore
+brew install --cask pomocore
 ```
 
 ### Debug Installation
 ```bash
-brew install --cask pawcus --verbose --debug
+brew install --cask pomocore --verbose --debug
 ```
 
 ## Links
 
 - **App Repository**: https://github.com/swmaeStrong/Pawcus
-- **Homebrew Tap**: https://github.com/swmaeStrong/homebrew-pawcus
+- **Homebrew Tap**: https://github.com/swmaeStrong/homebrew-pomocore
 - **Releases**: https://github.com/swmaeStrong/Pawcus/releases

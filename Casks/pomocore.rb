@@ -1,9 +1,9 @@
-cask "pawcus" do
+cask "pomocore" do
   version "1.1.2"
   sha256 "82793fa7b548d8f35e4b715c514f19f924775876bf03d2f192f8494296f9c1e6"
 
-  url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Pawcus.zip"
-  name "Pawcus"
+  url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Pomocore.zip"
+  name "Pomocore"
   desc "Developer productivity timer and app usage tracker for macOS"
   homepage "https://github.com/swmaeStrong/Pawcus-Public"
 
@@ -12,7 +12,7 @@ cask "pawcus" do
     strategy :github_latest
   end
 
-  app "Pawcus.app"
+  app "Pomocore.app"
 
   zap trash: [
     "~/Library/Application Support/Pawcus",
