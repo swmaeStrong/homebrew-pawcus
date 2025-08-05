@@ -1,6 +1,6 @@
 cask "pomocore" do
   version "1.1.3"
-  sha256 "9085fa762fbbc49c1a37a672281275c3eb2c9b845b569bc09a0ebbc1e4afd27f"
+  sha256 "8d44d8551a9f24d345057cb94f5ab44e98b0dd2f2ad900bf40ff4075a90315c8"
 
   url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Pomocore.zip"
   name "Pomocore"
