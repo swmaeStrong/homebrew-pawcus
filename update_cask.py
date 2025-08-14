@@ -83,7 +83,7 @@ def main():
     # ZIP 파일 찾기
     zip_asset = None
     for asset in release["assets"]:
-        if asset["name"] == "Pawcus.zip":
+        if asset["name"] == "Pomocore.zip":
             zip_asset = asset
             break
     
